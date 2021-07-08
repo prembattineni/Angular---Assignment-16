@@ -11,7 +11,7 @@ export class CoursesearchPipe implements PipeTransform {
     }
     const coursesArray = [];
     for (const course of value) {
-      if (course.courseName.includes(filteredString)) {
+      if (course.courseName.toLowerCase().includes(filteredString)) {
         coursesArray.push(course);
       }
     }

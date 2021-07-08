@@ -10,7 +10,7 @@ export class SearchPipe implements PipeTransform {
     }
     const productsArray = [];
     for (const product of value) {
-      if (product['productName'].includes(filteredString)) {
+      if (product['productName'].toLowerCase().includes(filteredString)) {
         productsArray.push(product);
       }
     }
