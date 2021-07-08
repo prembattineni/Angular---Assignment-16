@@ -1,0 +1,9 @@
+
+[
+    {"courseId":101, "courseName":"classes","coursePrice":1000,"courseDescrption":"You will learn all types of classes in java","courseImg":"assets/cor-classes.jpg"},
+    {"courseId":102, "courseName":"OOP","coursePrice":1500,"courseDescrption":"You will learn data Reusability and Security in java","courseImg":"assets/core-oops.png"},
+    {"courseId":104, "courseName":"Threads","coursePrice":2500,"courseDescrption":"You will learn types of threads and it uses in java","courseImg":"assets/core-threads.png"},
+    {"courseId":103, "courseName":"microservices","coursePrice":3000,"courseDescrption":"You will learn new Java8 features","courseImg":"assets/core-java8.jfif"}
+    
+
+]

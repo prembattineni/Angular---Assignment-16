@@ -1,0 +1,7 @@
+[
+    {"courseId":105, "courseName":"JDBC","coursePrice":1000,"courseDescrption":"You will learn jdbc connectivity using java","courseImg":"assets/adv-jdbc.png"},
+    {"courseId":106, "courseName":"Hibernate","coursePrice":1500,"courseDescrption":"You will learn HQL .which used to connect all databases","courseImg":"assets/adv-hibernate.png"},
+    {"courseId":107, "courseName":"JSP and Servlets","coursePrice":2000,"courseDescrption":"You will learn Jsp and servlet middlewares","courseImg":"assets/adv-jspServlet.jfif"},
+    {"courseId":108, "courseName":"Spring-Boot","coursePrice":5000,"courseDescrption":"You will learn how to build all types of applications","courseImg":"assets/adv-springs.png"}
+
+]

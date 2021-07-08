@@ -1,0 +1,60 @@
+
+<div class="mybg">
+    <h2> Java Courses</h2><hr>
+  <div class="container">
+  <table border="2" style="width: 100%; height: 100%; ">
+    <tr>
+        <td colspan="3">
+        <input type="text" class="form-control" placeholder="Search Course Name" [(ngModel)]="filteredString"/>
+        </td>
+        <td colspan="2">
+            <select  class="form-control" [(ngModel)]='sortby'> 
+                <option [value]='1'>
+                    SortbyName
+                </option>
+                <option [value]='2'>
+                    SortbyPrice
+                </option>
+                
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <th style="background-color:lightgray;">
+            Course Id
+        </th>
+        <th style="background-color:lightgray;">
+            Course Name
+        </th>
+        <th style="background-color:lightgray;">
+            Course Price
+        </th>
+        <th style="background-color:lightgray;">
+            Course Descrption
+        </th>
+        <th style="background-color:lightgray;">
+            Course Img
+        </th>
+    </tr>
+    <tr appMycolor *ngFor="let Course of courses | coursesearch:filteredString | coursesort:sortby">
+
+        <td >
+            {{Course.courseId}}
+     </td>
+     <td  >
+         {{Course.courseName | titlecase}}
+  </td>
+  <td >
+     {{Course.coursePrice | currency:'INR'}}
+</td>
+<td >
+ {{Course.courseDescrption | lowercase}}
+</td>
+<td>
+ <img [src]="Course.courseImg" height="70px" width="90px">
+</td>
+ </tr>
+</table>
+</div>
+</div>
+{{errMsg | json}}

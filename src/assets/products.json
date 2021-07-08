@@ -1,0 +1,8 @@
+[
+    {"productId":101, "productName":"samsung A21S","productPrice":12000,"productDes":"Samusung Mobile ","productImg":"assets/samsung.jpg"},
+    {"productId":102, "productName":"iphone 11","productPrice":100000,"productDes":"Iphone Mobile","productImg":"assets/iphone.png"},
+    {"productId":103, "productName":"Nokia 2.4","productPrice":13000,"productDes":"Nokia Mobile","productImg":"assets/nokia.png"},
+    {"productId":103, "productName":"Blackberry 9720","productPrice":400000,"productDes":"BlackBerry Mobile","productImg":"assets/blackberry.png"}
+    
+
+]
